@@ -1,0 +1,475 @@
+import time as t
+t.sleep(0.5)
+print("lib_load.")
+t.sleep(0.5)
+print("lib_load..")
+t.sleep(0.5)
+print("lib_load...")
+t.sleep(0.5)
+loop = 1
+
+while loop == 1:
+    print()
+    t.sleep(0.5)
+    print("#########################################")
+    print("##SUPER-HUMPI-BLOAT-CODER-3000-X-ALPHA")
+    print("#########################################")
+    print("'''Version 3.10'''")
+    print("schlüssel eingeben (nur zahlen)")#operator1
+    print("(keine 0 an erster stelle!!!)")
+    print("keine eingabe wird ersetzt durch:")
+    print("1234567890")
+    operator1 = input()
+    if operator1 == "":
+        operator1 = "1234567890"
+        operator1 = int (operator1)
+    option = int(input("1=code-2=decode:"))
+    print(".")
+    print(".")
+
+    ergebniss = ""
+    y = ""
+
+    if option == 1:
+        print("nur die folgenden zeichen sind derzeit erlaubt;")
+        print()
+        print("buchstaben:   a - z (keine großbuchstaben)")
+        print("umlaute   :   ä ö ü ß")
+        print("zahlen    :   0-9")
+        print("zeichen   :   leerzeichen , . ? ! - + :")
+        print()
+        counter = 0
+        blode = str(input("text eingeben zum codieren:"))
+        
+        print("ihr eingegebener text;")
+        print(blode)
+        print("wird nun codiert")
+        
+        anzahl = len(blode)
+        
+        print()
+        
+        while counter <= (anzahl-1):
+            x = blode[counter]
+            
+            if x == " ":
+                y = "00"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "a":
+                y = "01"
+                bloded = blode[counter].replace(x, y)
+                 
+            elif x == "b":
+                y = "02"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "c":
+                y = "03"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "d":
+                y = "04"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "e":
+                y = "05"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "f":
+                y = "06"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "g":
+                y = "07"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "h":
+                y = "08"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "i":
+                y = "09"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "j":
+                y = "10"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "k":
+                y = "11"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "l":
+                y = "12"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "m":
+                y = "13"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "n":
+                y = "14"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "o":
+                y = "15"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "p":
+                y = "16"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "q":
+                y = "17"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "r":
+                y = "18"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "s":
+                y = "19"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "t":
+                y = "20"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "u":
+                y = "21"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "v":
+                y = "22"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "w":
+                y = "23"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "x":
+                y = "24"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "y":
+                y = "25"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "z":
+                y = "26"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "0":
+                y = "27"
+                bloded = blode[counter].replace(x, y)
+                
+            elif x == "1":
+                y = "28"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "2":
+                y = "29"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "3":
+                y = "30"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "4":
+                y = "31"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "5":
+                y = "32"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "6":
+                y = "33"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "7":
+                y = "34"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "8":
+                y = "35"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "9":
+                y = "36"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == ".":
+                y = "37"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == ",":
+                y = "38"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "?":
+                y = "39"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "!":
+                y = "40"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "-":
+                y = "41"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "+":
+                y = "42"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == ":":
+                y = "43"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "ß":
+                y = "44"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "ä":
+                y = "45"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "ö":
+                y = "46"
+                bloded = blode[counter].replace(x, y)
+
+            elif x == "ü":
+                y = "47"
+                bloded = blode[counter].replace(x, y)
+                
+            else:
+                pass
+        
+            ergebniss += y
+            counter += 1
+            
+        supercoded = str(operator1) + ergebniss
+        ergebniss = int(supercoded) * int(operator1)
+        
+    elif option == 2:
+        deblode = str(input("text eingeben zum decodieren:"))
+        print("ihr eingegebener code;")
+        print(deblode)
+        print("wird nun decodiert")
+        print()
+        recode = int (deblode) // int (operator1)
+        recode = str(round(recode))
+        strop1 = str(operator1)
+        op1 = len(strop1)
+        deblode = recode[op1:len(recode)]
+        anzahl = len(deblode)
+
+        counter = 0
+        stringshifta = 0
+        stringshiftb = 2
+        
+        while counter <= anzahl-1:
+            x = deblode[stringshifta:stringshiftb]
+
+            if x == "00":
+                y = " "
+                
+            elif x == "01":
+                y = "a"
+                
+            elif x == "02":
+                y = "b"
+                
+            elif x == "03":
+                y = "c"
+                
+            elif x == "04":
+                y = "d"
+                
+            elif x == "05":
+                y = "e"
+                
+            elif x == "06":
+                y = "f"
+
+            elif x == "07":
+                y = "g"
+
+            elif x == "08":
+                y = "h"
+
+            elif x == "09":
+                y = "i"
+                
+            elif x == "10":
+                y = "j"
+                
+            elif x == "11":
+                y = "k"
+
+            elif x == "12":
+                y = "l"
+
+            elif x == "13":
+                y = "m"
+
+            elif x == "14":
+                y = "n"
+
+            elif x == "15":
+                y = "o"
+
+            elif x == "16":
+                y = "p"
+
+            elif x == "17":
+                y = "q"
+
+            elif x == "18":
+                y = "r"
+
+            elif x == "19":
+                y = "s"
+
+            elif x == "20":
+                y = "t"
+
+            elif x == "21":
+                y = "u"
+
+            elif x == "22":
+                y = "v"
+
+            elif x == "23":
+                y = "w"
+
+            elif x == "24":
+                y = "x"
+
+            elif x == "25":
+                y = "y"
+
+            elif x == "26":
+                y = "z"
+                
+            elif x == "27":
+                y = "0"
+
+            elif x == "28":
+                y = "1"
+
+            elif x == "29":
+                y = "2"
+
+            elif x == "30":
+                y = "3"
+
+            elif x == "31":
+                y = "4"
+
+            elif x == "32":
+                y = "5"
+
+            elif x == "33":
+                y = "6"
+
+            elif x == "34":
+                y = "7"
+
+            elif x == "35":
+                y = "8"
+
+            elif x == "36":
+                y = "9"
+
+            elif x == "37":
+                y = "."
+
+            elif x == "38":
+                y = ","
+
+            elif x == "39":
+                y = "?"
+
+            elif x == "40":
+                y = "!"
+
+            elif x == "41":
+                y = "-"
+
+            elif x == "42":
+                y = "+"
+
+            elif x == "43":
+                y = ":"
+
+            elif x == "44":
+                y = "ß"
+
+            elif x == "45":
+                y = "ä"
+
+            elif x == "46":
+                y = "ö"
+
+            elif x == "47":
+                y = "ü"
+                
+            else:
+                print("halt dich an die vorgegebenen zeichen!!!", x, y)
+                pass
+
+            ergebniss += y
+            counter += 2
+            stringshifta += 2
+            stringshiftb += 2
+        
+    else:
+        print("ne alder. nur 1 oder 2, klar?")
+        print()
+        print()
+        print()
+        print()
+        print("     ######    ")
+        print("   ##########  ")
+        print("  ### #### ###  ")
+        print("   ##########  ")
+        print("     ######  ")
+        print("  #          #  ")
+        print("    #      #  ")
+        print("      #  #  ")
+        print("    #      #  ")
+        print("  #          #  ")
+        print()
+        t.sleep(0.5)
+        print()
+        t.sleep(0.5)
+        print("...fatal system error")
+        t.sleep(0.5)
+        print("...formatting C")
+        t.sleep(0.5)
+        print("...formatting C")
+        t.sleep(0.5)
+        print("...formatting C")
+        t.sleep(0.5)
+        print("...formatting C")
+        t.sleep(0.5)
+        print("...formatting C")
+        t.sleep(0.5)
+        print("...hihi, verarscht ;)")
+        ergebniss = "gescheitert, programm wird beendet..."
+        loop = 0
+    print("ergebniss:", ergebniss)
+    try:
+        import sl4a as sl
+        droid = sl.Android ()
+        sclbo = droid.setClipboard (str (ergebniss))
+        t.sleep (0.5)
+        print ("in den zwischenspeichern kopiert")
+    except:
+        print ("kopieren fehlgeschlagen weil kein android")
+
+if loop == 0:
+    quit()
