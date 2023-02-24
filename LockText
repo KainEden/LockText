@@ -12,9 +12,9 @@ while loop == 1:
     print()
     t.sleep(0.5)
     print("#########################################")
-    print("##SUPER-HUMPI-BLOAT-CODER-3000-X-ALPHA")
+    print("##LockText")
     print("#########################################")
-    print("'''Version 3.10'''")
+    print("'''Version 1.0'''")
     print("schlüssel eingeben (nur zahlen)")#operator1
     print("(keine 0 an erster stelle!!!)")
     print("keine eingabe wird ersetzt durch:")
