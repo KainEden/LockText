@@ -15,9 +15,9 @@ while loop == 1:
     print("##LockText")
     print("#########################################")
     print("'''Version 1.0'''")
-    print("schlüssel eingeben (nur zahlen)")#operator1
-    print("(keine 0 an erster stelle!!!)")
-    print("keine eingabe wird ersetzt durch:")
+    print("enter key (digits only)")
+    print("(no 0 at first!!!)")
+    print("if no key, default key is used:")
     print("1234567890")
     operator1 = input()
     if operator1 == "":
@@ -27,23 +27,23 @@ while loop == 1:
     print(".")
     print(".")
 
-    ergebniss = ""
+    result = ""
     y = ""
 
     if option == 1:
-        print("nur die folgenden zeichen sind derzeit erlaubt;")
+        print("legal characters;")
         print()
-        print("buchstaben:   a - z (keine großbuchstaben)")
+        print("buchstaben:   a - z")
         print("umlaute   :   ä ö ü ß")
         print("zahlen    :   0-9")
         print("zeichen   :   leerzeichen , . ? ! - + :")
         print()
         counter = 0
-        blode = str(input("text eingeben zum codieren:"))
+        blode = str(input("paste text to becoded:"))
         
-        print("ihr eingegebener text;")
+        print("your text;")
         print(blode)
-        print("wird nun codiert")
+        print("coding")
         
         anzahl = len(blode)
         
@@ -247,17 +247,17 @@ while loop == 1:
             else:
                 pass
         
-            ergebniss += y
+            result += y
             counter += 1
             
-        supercoded = str(operator1) + ergebniss
-        ergebniss = int(supercoded) * int(operator1)
+        supercoded = str(operator1) + result
+        result = int(supercoded) * int(operator1)
         
     elif option == 2:
-        deblode = str(input("text eingeben zum decodieren:"))
-        print("ihr eingegebener code;")
+        deblode = str(input("paste texto decode:"))
+        print("your code;")
         print(deblode)
-        print("wird nun decodiert")
+        print("decoding")
         print()
         recode = int (deblode) // int (operator1)
         recode = str(round(recode))
@@ -418,16 +418,16 @@ while loop == 1:
                 y = "ü"
                 
             else:
-                print("halt dich an die vorgegebenen zeichen!!!", x, y)
+                print("only use legal characters!!!", x, y)
                 pass
 
-            ergebniss += y
+            result += y
             counter += 2
             stringshifta += 2
             stringshiftb += 2
         
     else:
-        print("ne alder. nur 1 oder 2, klar?")
+        print("wrong! must type 1 or 2, nothing else")
         print()
         print()
         print()
@@ -458,18 +458,18 @@ while loop == 1:
         t.sleep(0.5)
         print("...formatting C")
         t.sleep(0.5)
-        print("...hihi, verarscht ;)")
-        ergebniss = "gescheitert, programm wird beendet..."
+        print("...lol,just kidding  ;)")
+        result = "failed, program closed"
         loop = 0
-    print("ergebniss:", ergebniss)
+    print("result:", result)
     try:
         import sl4a as sl
         droid = sl.Android ()
-        sclbo = droid.setClipboard (str (ergebniss))
+        sclbo = droid.setClipboard (str (result))
         t.sleep (0.5)
-        print ("in den zwischenspeichern kopiert")
+        print ("pasted to clipboard")
     except:
-        print ("kopieren fehlgeschlagen weil kein android")
+        print ("paste to clipboard failed(android only)")
 
 if loop == 0:
     quit()
