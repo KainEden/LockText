@@ -458,7 +458,7 @@ while loop == 1:
         t.sleep(0.5)
         print("...formatting C")
         t.sleep(0.5)
-        print("...lol,just kidding  ;)")
+        print("...lol,just kidding  ;) ")
         result = "failed, program closed"
         loop = 0
     print("result:", result)
